@@ -4,13 +4,13 @@
     {
         static void Main(string[] args)
         {
-            PrintServiceString ps = new PrintServiceString();
+            PrintService ps = new PrintService();
             Console.Write("How many values ? ");
             int n = int.Parse(Console.ReadLine());
 
             for(int i = 1; i <= n; i++)
             {
-                string x = Console.ReadLine();
+                int x = int.Parse(Console.ReadLine());
                 ps.AddValue(x);
             }
           
