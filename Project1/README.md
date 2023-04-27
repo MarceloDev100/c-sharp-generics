@@ -16,3 +16,13 @@ __1- Explicit casting:__  need to convert an object to a specific right type. Ob
 __2- Exceptions possibility:__ An incorrect explicit casting can go unnoticed by the programmer, and an exception can be thrown __at runtime__.
 
 __3- Performance:__ boxing and unboxing operations slow down performance a bit.
+
+
+![ex3](https://user-images.githubusercontent.com/88597534/235003715-d68cd671-ac36-43e9-9316-bce4bcd812fc.png)
+
+:arrow_right:  Generics allow classes, interfaces and methods to be parameterized by type.
+
+:arrow_right:  T is a generic type, so it can be of any type. Anything can be used in place of T.
+When declaring an object, it will be determined which type is necessary.
+
+:arrow_right: After using generics, no need to explicit casting anymore. PrintService class can be reused using different types, each time an object is created. 
